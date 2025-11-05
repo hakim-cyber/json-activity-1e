@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSON Activity 1E — Hakim Aliyev</title>
+
+  <script>
+   
+    let taskList = [{ "idTask": "1", "title": "Finish Data Analysis Project", "note": "Write the final report, create charts in Python", "addedOn": "2025-11-05", "deadline": "2025-11-10", "idPriority": "2", "idStatus": "2", "idType": "3", "idContext": "2" },
+        { "idTask": "2", "title": "Prepare for Calculus Exam", "note": "Review integration and differential equations", "addedOn": "2025-11-06", "deadline": "2025-11-12", "idPriority": "3", "idStatus": "1", "idType": "2", "idContext": "3" },
+        { "idTask": "3", "title": "Group Presentation", "note": "Prepare slides", "addedOn": "2025-11-07", "deadline": "2025-11-11", "idPriority": "1", "idStatus": "2", "idType": "5", "idContext": "4" }];
+
+   
+    let priorityList = [
+      {"idPriority":"1","priority":"Critical"},
+      {"idPriority":"2","priority":"High"},
+      {"idPriority":"3","priority":"Medium"},
+      {"idPriority":"4","priority":"Low"},
+      {"idPriority":"5","priority":"Optional"}
+    ];
+
+
+    let statusList = [
+      {"idStatus":"1","status":"Not started"},
+      {"idStatus":"2","status":"In progress"},
+      {"idStatus":"3","status":"Completed"},
+      {"idStatus":"4","status":"On hold"}
+    ];
+
+    
+    let typeList = [
+      {"idType":"1","type":"Assignment"},
+      {"idType":"2","type":"Exam preparation"},
+      {"idType":"3","type":"Project work"},
+      {"idType":"4","type":"Personal activity"},
+      {"idType":"5","type":"Meeting or group work"}
+    ];
+
+    
+    let contextList = [
+      {"idContext":"1","context":"Home"},
+      {"idContext":"2","context":"University"},
+      {"idContext":"3","context":"Library"},
+      {"idContext":"4","context":"Online"},
+      {"idContext":"5","context":"Outdoor"}
+    ];
+
+    // === Display Data in Console ===
+    console.log("Task List:", taskList);
+    console.log("Priority List:", priorityList);
+    console.log("Status List:", statusList);
+    console.log("Type List:", typeList);
+    console.log("Context List:", contextList);
+  </script>
+</head>
+<body>
+  <h1>JSON Activity 1E Hakim Aliyev</h1>
+  <p>Open browser console to view the JSON .</p>
+</body>
+</html>
